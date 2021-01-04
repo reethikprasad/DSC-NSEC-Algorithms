@@ -15,6 +15,8 @@ So We gonna use the **sort STL algorithm** to sort them
 It generally takes two parameters , the first one being the point of the array/vector from where the sorting needs to begin <br>and the second parameter being the length up to which we want the array/vector to get sorted.<br>
 The third parameter is optional and can be used in cases such as if we want to sort the elements lexicographically
 
+This can be used to sort array much faster and would take less time.
+
 ###### Example
 
 `int arr[] = { 1, 5, 8, 9, 6, 7, 3, 4, 2, 0 };`
