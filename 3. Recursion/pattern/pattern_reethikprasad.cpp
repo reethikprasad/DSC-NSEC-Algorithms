@@ -13,26 +13,28 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void series(int i,int n){
-    for(int j=1;j<=i;j++){
-        cout<<j<<" ";
+void series(int i, int n)
+{
+    for (int j = 1; j <= i; j++)
+    {
+        cout << j << " ";
     }
-    cout<<endl;
-        if(i<n){
-            series(i+1,n);
-        }
+    cout << endl;
+    if (i < n)
+    {
+        series(i + 1, n); //use of recursion
     }
+}
 
-int main() {
+int main()
+{
     int t;
-    cin>>t;
-    while(t--){
+    cin >> t;
+    while (t--)
+    {
         int n;
-        cin>>n;
-        series(1,n);
+        cin >> n;
+        series(1, n);
     }
     return 0;
 }
-
-
-
